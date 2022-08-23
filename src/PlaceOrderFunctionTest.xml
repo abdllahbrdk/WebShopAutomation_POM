@@ -1,0 +1,14 @@
+<suite name="Place Order Function Test Suite">
+    <test name="Place Order Test">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="userName" value="thor1@gmail.com"></parameter>
+        <parameter name="password" value="123456"></parameter>
+        <parameter name="city" value="Hacke"></parameter>
+        <parameter name="address" value="new"></parameter>
+        <parameter name="zip" value="08911"></parameter>
+        <parameter name="phone" value="203232231"></parameter>
+        <classes>
+            <class name="TEST.PlaceAnOrderTest"></class>
+        </classes>
+    </test>
+</suite>
